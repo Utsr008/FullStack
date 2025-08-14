@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Registration Form</h1>
+</head>
+<body>
+<nav>
+    <label for="Full Name">Full Name:</label>
+    <input type="text" id="Full Name" name="Full Name" required>
+    <br>
+    <label for="Age">Age:</label>
+    <input type="number" id="Age" name="Age" required>
+    <br>
+    <label><input type="radio" name="Gender" value="Male">MALE</label>
+    <label><input type="radio" name="Gender" value="Female">FEMALE</label><br>
+    <p>Country: </p>
+    <select name="Country" id="Country">
+        <option value="---SELECT---">---SELECT---</option>
+        <option value="India">India</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+        <option value="Canada">Canada</option>
+        <option value="Japan">Japan</option></select>
+    <br><br>
+    <label for="Skills">Skills-</label>
+    <input type="checkbox" id="Skills" name="Skills" value="HTML">HTML
+    <input type="checkbox" id="Skills" name="Skills" value="CSS">CSS
+    <input type="checkbox" id="Skills" name="Skills" value="JavaScript">JavaScript
+    <input type="checkbox" id="Skills" name="Skills" value="Python">Python
+    <br><br>
+    <label for = "Upload resume">Upload resume:</label>
+    <input type = "File" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf">
+    <br><br>
+    <input type="submit" value="Submit">
+</nav> 
+</body>
+</html>
